@@ -83,7 +83,7 @@ div.title {
     top: 0px;
     margin-left: calc(2% + 61px);
     font-size: 40px;
-    font-family: "MigMix 1M";
+    font-family: "メイリオ", sans-serif;
     font-weight: bold;
 }
 
@@ -94,7 +94,7 @@ div.timer {
     margin-left: 2%;
     text-align: right;
     font-size: 40px;
-    font-family: "MigMix 1M";
+    font-family: "メイリオ", sans-serif;
     font-weight: bold;
 }
 
@@ -103,7 +103,7 @@ div.qCount {
     top: 45px;
     margin-left: calc(2% + 61px);
     font-size: 40px;
-    font-family: "MigMix 1M";
+    font-family: "メイリオ", sans-serif;
     font-weight: bold;
 }
 

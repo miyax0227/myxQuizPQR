@@ -53,10 +53,10 @@ div.player div.overRect div.paperRank {
 div.player div.o {
     position: absolute;
     left: -50px;
-    top: -230px;
+    top: -220px;
     width: 100px;
     text-align: center;
-    font-family: "MigMix 1M";
+    font-family: "メイリオ", sans-serif;
     font-weight: bold;
     letter-spacing: 0px;
     font-size: 72px;
@@ -70,7 +70,7 @@ div.player div.o div.chance {
 div.player div.winningPoint {
     position: absolute;
     left: 20px;
-    top: -190px;
+    top: -185px;
     width: 100px;
     text-align: left;
     font-family: "MigMix 1M";

@@ -8,7 +8,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
-	"author":"Ryoh MIYAMOTO",
+	"author": "Ryoh MIYAMOTO",
 	"license": "ISC",
 	"dependencies": {
 		"xlsx": "0.10.3"

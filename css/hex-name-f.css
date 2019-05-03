@@ -6,36 +6,75 @@ div.player div.n {
     letter-spacing: 0px;
     font-size: 24px;
     transform-origin: 0px 0px;
-    transform: translate(10px,-5px);
+    transform: translate(10px, -5px);
 }
 
-div.player div.n div.up1 {color: yellow;}
-div.player div.n div.up2 {color: yellow;}
-div.player div.n div.up3 {color: yellow;}
-div.player div.n div.up4 {color: yellow;}
-div.player div.n div.up5 {color: yellow;}
-div.player div.n div.up6 {color: yellow;}
+div.player div.n div.up1 {
+    color: yellow;
+}
+
+div.player div.n div.up2 {
+    color: yellow;
+}
+
+div.player div.n div.up3 {
+    color: yellow;
+}
+
+div.player div.n div.up4 {
+    color: yellow;
+}
+
+div.player div.n div.up5 {
+    color: yellow;
+}
+
+div.player div.n div.up6 {
+    color: yellow;
+}
+
+div.player div.n div.up7 {
+    color: yellow;
+}
+
+div.player div.n div.up8 {
+    color: yellow;
+}
 
 div.player div.name1 {
     display: none;
     top: 125px;
 }
+
 div.player div.name2 {
     display: none;
     top: 175px;
 }
+
 div.player div.name3 {
     display: none;
     top: 225px;
 }
+
 div.player div.name4 {
+    display: none;
+    top: 275px;
+}
+
+div.player div.name5 {
     top: 125px;
 }
-div.player div.name5 {
+
+div.player div.name6 {
     top: 175px;
 }
-div.player div.name6 {
+
+div.player div.name7 {
     top: 225px;
+}
+
+div.player div.name8 {
+    top: 275px;
 }
 
 div.player div.t {
@@ -49,33 +88,36 @@ div.player div.t {
     font-size: 18px;
 }
 
-div.player div.t div.up1 {color: yellow;}
-div.player div.t div.up2 {color: yellow;}
-div.player div.t div.up3 {color: yellow;}
-div.player div.t div.up4 {color: yellow;}
-div.player div.t div.up5 {color: yellow;}
-div.player div.t div.up6 {color: yellow;}
+div.player div.t div.up1 {
+    color: yellow;
+}
 
-div.player div.torii1 {
-    display: none;
-    top: 150px;
+div.player div.t div.up2 {
+    color: yellow;
 }
-div.player div.torii2 {
-    display: none;
-    top: 200px;
+
+div.player div.t div.up3 {
+    color: yellow;
 }
-div.player div.torii3 {
-    display: none;
-    top: 250px;
+
+div.player div.t div.up4 {
+    color: yellow;
 }
-div.player div.torii4 {
-    top: 150px;
+
+div.player div.t div.up5 {
+    color: yellow;
 }
-div.player div.torii5 {
-    top: 200px;
+
+div.player div.t div.up6 {
+    color: yellow;
 }
-div.player div.torii6 {
-    top: 250px;
+
+div.player div.t div.up7 {
+    color: yellow;
+}
+
+div.player div.t div.up8 {
+    color: yellow;
 }
 
 div.player div.oo {
@@ -95,22 +137,36 @@ div.player div.oo1 {
     display: none;
     top: 125px;
 }
+
 div.player div.oo2 {
     display: none;
     top: 175px;
 }
+
 div.player div.oo3 {
     display: none;
     top: 225px;
 }
+
 div.player div.oo4 {
+    display: none;
+    top: 275px;
+}
+
+div.player div.oo5 {
     top: 125px;
 }
-div.player div.oo5 {
+
+div.player div.oo6 {
     top: 175px;
 }
-div.player div.oo6 {
+
+div.player div.oo7 {
     top: 225px;
+}
+
+div.player div.oo8 {
+    top: 275px;
 }
 
 div.player div.sl {
@@ -122,22 +178,36 @@ div.player div.sl1 {
     display: none;
     top: 125px;
 }
+
 div.player div.sl2 {
     display: none;
     top: 175px;
 }
+
 div.player div.sl3 {
     display: none;
     top: 225px;
 }
+
 div.player div.sl4 {
+    display: none;
+    top: 275px;
+}
+
+div.player div.sl5 {
     top: 125px;
 }
-div.player div.sl5 {
+
+div.player div.sl6 {
     top: 175px;
 }
-div.player div.sl6 {
+
+div.player div.sl7 {
     top: 225px;
+}
+
+div.player div.sl8 {
+    top: 275px;
 }
 
 div.player div.action_sl1 {
@@ -165,22 +235,37 @@ div.player div.action_sl3 {
 }
 
 div.player div.action_sl4 {
+    display: none;
     position: absolute;
     left: -22px;
-    top: 125px;
+    top: 275px;
     opacity: 0.8;
 }
 
 div.player div.action_sl5 {
     position: absolute;
     left: -22px;
-    top: 175px;
+    top: 125px;
     opacity: 0.8;
 }
 
 div.player div.action_sl6 {
     position: absolute;
     left: -22px;
+    top: 175px;
+    opacity: 0.8;
+}
+
+div.player div.action_sl7 {
+    position: absolute;
+    left: -22px;
     top: 225px;
+    opacity: 0.8;
+}
+
+div.player div.action_sl8 {
+    position: absolute;
+    left: -22px;
+    top: 275px;
     opacity: 0.8;
 }

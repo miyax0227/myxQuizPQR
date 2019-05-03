@@ -11,9 +11,11 @@ div.player div.n {
 div.player div.n div.up1 {color: yellow;}
 div.player div.n div.up2 {color: yellow;}
 div.player div.n div.up3 {color: yellow;}
-div.player div.n div.up4 {display: none;}
+div.player div.n div.up4 {color: yellow;}
 div.player div.n div.up5 {display: none;}
 div.player div.n div.up6 {display: none;}
+div.player div.n div.up7 {display: none;}
+div.player div.n div.up8 {display: none;}
 
 div.player div.name1 {
     left: -70px;
@@ -28,72 +30,36 @@ div.player div.name3 {
     top: 225px;
 }
 div.player div.name4 {
-    left: 0px;
-    top: 125px;
+    left: -70px;
+    top: 275px;
 }
 div.player div.name5 {
     left: 0px;
-    top: 175px;
+    top: 125px;
 }
 div.player div.name6 {
     left: 0px;
+    top: 175px;
+}
+div.player div.name7 {
+    left: 0px;
     top: 225px;
 }
-
-div.player div.t {
-    position: absolute;
-    width: 200px;
-    text-align: center;
-    letter-spacing: 3px;
-    font-family: "STU XVIII";
-    font-weight: bold;
-    font-size: 18px;
-    transform-origin: 0px 0px;
-    transform: scale(0.6,1);
+div.player div.name8 {
+    left: 0px;
+    top: 275px;
 }
-
-div.player div.t div.up1 {color: yellow;}
-div.player div.t div.up2 {color: yellow; }
-div.player div.t div.up3 {color: yellow; }
-div.player div.t div.up4 {display: none;}
-div.player div.t div.up5 {display: none;}
-div.player div.t div.up6 {display: none;}
-
-div.player div.torii1 {
-    left: -95px;
-    top: 150px;
-}
-div.player div.torii2 {
-    left: -95px;
-    top: 200px;
-}
-div.player div.torii3 {
-    left: -95px;
-    top: 250px;
-}
-div.player div.torii4 {
-    left: -25px;
-    top: 150px;
-}
-div.player div.torii5 {
-    left: -25px;
-    top: 200px;
-}
-div.player div.torii6 {
-    left: -25px;
-    top: 250px;
-}
-
 
 div.player div.sl {
     position: absolute;
     transform-origin: 0px, 0px;
-    transform: scale(0.7,1);
+    transform: scale(0.7,1) translate(0,-12px);
 }
 
-div.player div.sl div.up4 {display: none;}
 div.player div.sl div.up5 {display: none;}
 div.player div.sl div.up6 {display: none;}
+div.player div.sl div.up7 {display: none;}
+div.player div.sl div.up8 {display: none;}
 
 div.player div.sl1 {
     left: -70px;
@@ -108,16 +74,24 @@ div.player div.sl3 {
     top: 225px;
 }
 div.player div.sl4 {
-    left: 0px;
-    top: 125px;
+    left: -70px;
+    top: 275px;
 }
 div.player div.sl5 {
     left: 0px;
-    top: 175px;
+    top: 125px;
 }
 div.player div.sl6 {
     left: 0px;
+    top: 175px;
+}
+div.player div.sl7 {
+    left: 0px;
     top: 225px;
+}
+div.player div.sl8 {
+    left: 0px;
+    top: 275px;
 }
 
 div.player div.action_sl1 {
@@ -143,21 +117,35 @@ div.player div.action_sl3 {
 
 div.player div.action_sl4 {
     position: absolute;
-    left: 28px;
-    top: 125px;
+    left: -72px;
+    top: 275px;
     opacity: 0.8;
 }
 
 div.player div.action_sl5 {
     position: absolute;
     left: 28px;
-    top: 175px;
+    top: 125px;
     opacity: 0.8;
 }
 
 div.player div.action_sl6 {
     position: absolute;
     left: 28px;
+    top: 175px;
+    opacity: 0.8;
+}
+
+div.player div.action_sl7 {
+    position: absolute;
+    left: 28px;
     top: 225px;
+    opacity: 0.8;
+}
+
+div.player div.action_sl8 {
+    position: absolute;
+    left: 28px;
+    top: 275px;
     opacity: 0.8;
 }

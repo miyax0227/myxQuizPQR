@@ -1,216 +1,204 @@
-[
-	{
-		"key": "entryNo",
-		"style": "number",
-		"profile": true
-	}, {
-		"key": "name",
-		"style": "string",
-		"profile": true,
-		"css": "name",
-		"vtrans": 3.7
-	}, 	{
-		"key": "lot",
-		"style": "number",
-		"profile": true
-	}, 	{
-		"key": "lotNo",
-		"style": "number",
-		"profile": true
-	}, {
-		"key": "name1"      ,
-		"style": "string",
-		"profile": true,
-		"anonymous": false,
-		"css": "n name1",
-		"htrans": 3.7,
-		"up1":true
-	}, {
-		"key": "handleName1",
-		"style": "string",
-		"profile": true,
-		"anonymous": true ,
-		"css": "n name1",
-		"htrans": 3.7,
-		"up1":true
-	}, {
-		"key": "torii1"     ,
-		"style": "number",
-		"profile": true,
-		"css": "t torii1",
-		"repeatChar": ";",
-		"up1":true
-	}, {
-		"key": "name2"      ,
-		"style": "string",
-		"profile": true,
-		"anonymous": false,
-		"css": "n name2",
-		"htrans": 3.7,
-		"up2":true
-	}, {
-		"key": "handleName2",
-		"style": "string",
-		"profile": true,
-		"anonymous": true ,
-		"css": "n name2",
-		"htrans": 3.7,
-		"up2":true
-	}, {
-		"key": "torii2"     ,
-		"style": "number",
-		"profile": true,
-		"css": "t torii2",
-		"repeatChar": ";",
-		"up2":true
-	}, {
-		"key": "name3"      ,
-		"style": "string",
-		"profile": true,
-		"anonymous": false,
-		"css": "n name3",
-		"htrans": 3.7,
-		"up3":true
-	}, {
-		"key": "handleName3",
-		"style": "string",
-		"profile": true,
-		"anonymous": true ,
-		"css": "n name3",
-		"htrans": 3.7,
-		"up3":true
-	}, {
-		"key": "torii3"     ,
-		"style": "number",
-		"profile": true,
-		"css": "t torii3",
-		"repeatChar": ";",
-		"up3":true
-	}, {
-		"key": "name4"      ,
-		"style": "string",
-		"profile": true,
-		"anonymous": false,
-		"css": "n name4",
-		"htrans": 3.7,
-		"up4":true
-	}, {
-		"key": "handleName4",
-		"style": "string",
-		"profile": true,
-		"anonymous": true ,
-		"css": "n name4",
-		"htrans": 3.7,
-		"up4":true
-	}, {
-		"key": "torii4"     ,
-		"style": "number",
-		"profile": true,
-		"css": "t torii4",
-		"repeatChar": ";",
-		"up4":true
-	}, {
-		"key": "name5"      ,
-		"style": "string",
-		"profile": true,
-		"anonymous": false,
-		"css": "n name5",
-		"htrans": 3.7,
-		"up5":true
-	}, {
-		"key": "handleName5",
-		"style": "string",
-		"profile": true,
-		"anonymous": true ,
-		"css": "n name5",
-		"htrans": 3.7,
-		"up5":true
-	}, {
-		"key": "torii5"     ,
-		"style": "number",
-		"profile": true,
-		"css": "t torii5",
-		"repeatChar": ";",
-		"up5":true
-	}, {
-		"key": "name6"      ,
-		"style": "string",
-		"profile": true,
-		"anonymous": false,
-		"css": "n name6",
-		"htrans": 3.7,
-		"up6":true
-	}, {
-		"key": "handleName6",
-		"style": "string",
-		"profile": true,
-		"anonymous": true ,
-		"css": "n name6",
-		"htrans": 3.7,
-		"up6":true
-	}, {
-		"key": "torii6"     ,
-		"style": "number",
-		"profile": true,
-		"css": "t torii6",
-		"repeatChar": ";",
-		"up6":true
-	}, {
-		"key": "motion",
-		"style": "string",
-		"css_img": "motion",
-		"css_img_file": {
-			"o": "o.png",
-			"x": "x.png"
-		}
-	}, {
-		"key": "motion2",
-		"style": "string",
-		"css_img": "motion",
-		"css_img_file": {
-			"o": "o.png",
-			"x": "x.png"
-		}
-	}, {
-		"key": "status",
-		"value": "normal",
-		"style": "select",
-		"option": ["normal", "win", "lose", "absent", "wait"],
-		"css_img": "status",
-		"css_img_file": {
-			"win": "win.png",
-			"lose": "lose.png",
-			"wait": "wait.png",
-			"absent": "absent.png"
-		}
-	}, {
-		"key": "rank",
-		"value": 0,
-		"style": "number",
-		"css_img": "rank",
-		"css_img_file": {
-			"1": "1st.png",
-			"2": "2nd.png",
-			"3": "3rd.png",
-			"4": "4th.png",
-			"5": "5th.png",
-			"6": "6th.png",
-			"7": "7th.png",
-			"8": "8th.png",
-			"9": "9th.png",
-			"10": "10th.png",
-			"11": "11th.png",
-			"12": "12th.png"
-		}
-	}, {
-		"key": "absent",
-		"value": 0,
-		"style": "number",
-		"css": "absent",
-		"repeatChar": "●\n"
-	}, {
-		"key": "close",
-		"value": true,
-		"style": "boolean"
+[{
+	"key": "entryNo",
+	"style": "number",
+	"profile": true
+}, {
+	"key": "name",
+	"style": "string",
+	"profile": true,
+	"css": "name",
+	"vtrans": 3.7
+}, {
+	"key": "lot",
+	"style": "number",
+	"profile": true
+}, {
+	"key": "lotNo",
+	"style": "number",
+	"profile": true
+}, {
+	"key": "name1",
+	"style": "string",
+	"profile": true,
+	"anonymous": false,
+	"css": "n name1",
+	"htrans": 3.7,
+	"up1": true
+}, {
+	"key": "handleName1",
+	"style": "string",
+	"profile": true,
+	"anonymous": true,
+	"css": "n name1",
+	"htrans": 3.7,
+	"up1": true
+}, {
+	"key": "name2",
+	"style": "string",
+	"profile": true,
+	"anonymous": false,
+	"css": "n name2",
+	"htrans": 3.7,
+	"up2": true
+}, {
+	"key": "handleName2",
+	"style": "string",
+	"profile": true,
+	"anonymous": true,
+	"css": "n name2",
+	"htrans": 3.7,
+	"up2": true
+}, {
+	"key": "name3",
+	"style": "string",
+	"profile": true,
+	"anonymous": false,
+	"css": "n name3",
+	"htrans": 3.7,
+	"up3": true
+}, {
+	"key": "handleName3",
+	"style": "string",
+	"profile": true,
+	"anonymous": true,
+	"css": "n name3",
+	"htrans": 3.7,
+	"up3": true
+}, {
+	"key": "name4",
+	"style": "string",
+	"profile": true,
+	"anonymous": false,
+	"css": "n name4",
+	"htrans": 3.7,
+	"up4": true
+}, {
+	"key": "handleName4",
+	"style": "string",
+	"profile": true,
+	"anonymous": true,
+	"css": "n name4",
+	"htrans": 3.7,
+	"up4": true
+}, {
+	"key": "name5",
+	"style": "string",
+	"profile": true,
+	"anonymous": false,
+	"css": "n name5",
+	"htrans": 3.7,
+	"up5": true
+}, {
+	"key": "handleName5",
+	"style": "string",
+	"profile": true,
+	"anonymous": true,
+	"css": "n name5",
+	"htrans": 3.7,
+	"up5": true
+}, {
+	"key": "name6",
+	"style": "string",
+	"profile": true,
+	"anonymous": false,
+	"css": "n name6",
+	"htrans": 3.7,
+	"up6": true
+}, {
+	"key": "handleName6",
+	"style": "string",
+	"profile": true,
+	"anonymous": true,
+	"css": "n name6",
+	"htrans": 3.7,
+	"up6": true
+}, {
+	"key": "name7",
+	"style": "string",
+	"profile": true,
+	"anonymous": false,
+	"css": "n name7",
+	"htrans": 3.7,
+	"up7": true
+}, {
+	"key": "handleName7",
+	"style": "string",
+	"profile": true,
+	"anonymous": true,
+	"css": "n name7",
+	"htrans": 3.7,
+	"up7": true
+}, {
+	"key": "name8",
+	"style": "string",
+	"profile": true,
+	"anonymous": false,
+	"css": "n name8",
+	"htrans": 3.7,
+	"up8": true
+}, {
+	"key": "handleName8",
+	"style": "string",
+	"profile": true,
+	"anonymous": true,
+	"css": "n name8",
+	"htrans": 3.7,
+	"up8": true
+}, {
+	"key": "motion",
+	"style": "string",
+	"css_img": "motion",
+	"css_img_file": {
+		"o": "o.png",
+		"x": "x.png"
 	}
-]
+}, {
+	"key": "motion2",
+	"style": "string",
+	"css_img": "motion",
+	"css_img_file": {
+		"o": "o.png",
+		"x": "x.png"
+	}
+}, {
+	"key": "status",
+	"value": "normal",
+	"style": "select",
+	"option": ["normal", "win", "lose", "absent", "wait"],
+	"css_img": "status",
+	"css_img_file": {
+		"win": "win.png",
+		"lose": "lose.png",
+		"wait": "wait.png",
+		"absent": "absent.png"
+	}
+}, {
+	"key": "rank",
+	"value": 0,
+	"style": "number",
+	"css_img": "rank",
+	"css_img_file": {
+		"1": "1st.png",
+		"2": "2nd.png",
+		"3": "3rd.png",
+		"4": "4th.png",
+		"5": "5th.png",
+		"6": "6th.png",
+		"7": "7th.png",
+		"8": "8th.png",
+		"9": "9th.png",
+		"10": "10th.png",
+		"11": "11th.png",
+		"12": "12th.png"
+	}
+}, {
+	"key": "absent",
+	"value": 0,
+	"style": "number",
+	"css": "absent",
+	"repeatChar": "●\n"
+}, {
+	"key": "close",
+	"value": true,
+	"style": "boolean"
+}]

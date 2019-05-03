@@ -15,6 +15,8 @@ div.player div.n div.up3 {color: yellow;}
 div.player div.n div.up4 {color: yellow;}
 div.player div.n div.up5 {color: yellow;}
 div.player div.n div.up6 {color: yellow;}
+div.player div.n div.up7 {color: yellow;}
+div.player div.n div.up8 {color: yellow;}
 
 div.player div.name1 {
     top: 125px;
@@ -26,7 +28,6 @@ div.player div.name3 {
     top: 225px;
 }
 div.player div.name4 {
-    display: none;
     top: 275px;
 }
 div.player div.name5 {
@@ -36,6 +37,14 @@ div.player div.name5 {
 div.player div.name6 {
     display: none;
     top: 375px;
+}
+div.player div.name7 {
+    display: none;
+    top: 425px;
+}
+div.player div.name8 {
+    display: none;
+    top: 475px;
 }
 
 div.player div.t {
@@ -55,28 +64,8 @@ div.player div.t div.up3 {color: yellow;}
 div.player div.t div.up4 {color: yellow;}
 div.player div.t div.up5 {color: yellow;}
 div.player div.t div.up6 {color: yellow;}
-
-div.player div.torii1 {
-    top: 150px;
-}
-div.player div.torii2 {
-    top: 200px;
-}
-div.player div.torii3 {
-    top: 250px;
-}
-div.player div.torii4 {
-    display: none;
-    top: 300px;
-}
-div.player div.torii5 {
-    display: none;
-    top: 350px;
-}
-div.player div.torii6 {
-    display: none;
-    top: 400px;
-}
+div.player div.t div.up7 {color: yellow;}
+div.player div.t div.up8 {color: yellow;}
 
 div.player div.oo {
     position: absolute;
@@ -101,7 +90,6 @@ div.player div.oo3 {
     top: 225px;
 }
 div.player div.oo4 {
-    display: none;
     top: 275px;
 }
 div.player div.oo5 {
@@ -111,6 +99,14 @@ div.player div.oo5 {
 div.player div.oo6 {
     display: none;
     top: 375px;
+}
+div.player div.oo5 {
+    display: none;
+    top: 425px;
+}
+div.player div.oo6 {
+    display: none;
+    top: 475px;
 }
 
 div.player div.sl {
@@ -128,7 +124,6 @@ div.player div.sl3 {
     top: 225px;
 }
 div.player div.sl4 {
-    display: none;
     top: 275px;
 }
 div.player div.sl5 {
@@ -138,6 +133,14 @@ div.player div.sl5 {
 div.player div.sl6 {
     display: none;
     top: 375px;
+}
+div.player div.sl7 {
+    display: none;
+    top: 425px;
+}
+div.player div.sl8 {
+    display: none;
+    top: 475px;
 }
 
 div.player div.action_sl1 {
@@ -162,7 +165,6 @@ div.player div.action_sl3 {
 }
 
 div.player div.action_sl4 {
-    display: none;
     position: absolute;
     left: -22px;
     top: 275px;
@@ -182,5 +184,21 @@ div.player div.action_sl6 {
     position: absolute;
     left: -22px;
     top: 375px;
+    opacity: 0.8;
+}
+
+div.player div.action_sl7 {
+    display: none;
+    position: absolute;
+    left: -22px;
+    top: 425px;
+    opacity: 0.8;
+}
+
+div.player div.action_sl8 {
+    display: none;
+    position: absolute;
+    left: -22px;
+    top: 475px;
     opacity: 0.8;
 }
