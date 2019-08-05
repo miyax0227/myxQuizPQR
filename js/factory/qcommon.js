@@ -567,7 +567,7 @@ app
 					display = "inline";
 				}
 
-				return {
+				var returnObject = {
 					position: 'absolute',
 					left: playerLeft + 'px',
 					top: playerTop + 'px',
@@ -576,6 +576,12 @@ app
 					display: display,
 					'z-index': player["position"] - players.length
 				};
+
+				if(zoom == 1){
+					delete returnObject.transform;
+				}
+
+				return returnObject;
 			}
 
 			/*************************************************************************
