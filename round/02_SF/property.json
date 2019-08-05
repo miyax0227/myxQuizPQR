@@ -1,6 +1,6 @@
 [{
 		"title": "準決勝",
-		"maxRankDisplay": 3,
+		"maxRankDisplay": 5,
 		"openRankArray": null,
 		"winningPoint": 6,
 		"losingPoint": 3,
