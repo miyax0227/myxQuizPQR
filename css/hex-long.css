@@ -15,7 +15,7 @@ div.player div.name {
     -webkit-writing-mode: vertical-rl;
     -webkit-text-orientation: upright;
     transform-origin: 0px 12px;
-    transform: translate(16px,-10px);
+    transform: scale(1.15,1.15) translate(12px,-20px);
 }
 
 div.player div.open div.paperRank {
@@ -64,7 +64,7 @@ div.player div.o {
 }
 
 div.player div.o div.chance {
-    color: DodgerBlue;
+    color: lightblue;
 }
 
 div.player div.winningPoint {
@@ -106,7 +106,7 @@ div.player div.x {
 }
 
 div.player div.x div.pinch {
-    color: Salmon;
+    color: pink;
 }
 
 div.player div.absent {

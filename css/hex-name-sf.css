@@ -1,3 +1,8 @@
+div.player {
+    transform-origin: 0px 0px;
+    transform: scale(0.9, 0.9);
+}
+
 div.player div.n {
     position: absolute;
     left: -50px;
@@ -6,42 +11,72 @@ div.player div.n {
     letter-spacing: 0px;
     font-size: 24px;
     transform-origin: 0px 0px;
-    transform: translate(10px,-5px);
+    transform: scale(1.1, 1.2) translate(6px, 2px);
 }
 
-div.player div.n div.up1 {color: yellow;}
-div.player div.n div.up2 {color: yellow;}
-div.player div.n div.up3 {color: yellow;}
-div.player div.n div.up4 {color: yellow;}
-div.player div.n div.up5 {color: yellow;}
-div.player div.n div.up6 {color: yellow;}
-div.player div.n div.up7 {color: yellow;}
-div.player div.n div.up8 {color: yellow;}
+div.player div.n div.up1 {
+    color: yellow;
+}
+
+div.player div.n div.up2 {
+    color: yellow;
+}
+
+div.player div.n div.up3 {
+    color: yellow;
+}
+
+div.player div.n div.up4 {
+    color: yellow;
+}
+
+div.player div.n div.up5 {
+    color: yellow;
+}
+
+div.player div.n div.up6 {
+    color: yellow;
+}
+
+div.player div.n div.up7 {
+    color: yellow;
+}
+
+div.player div.n div.up8 {
+    color: yellow;
+}
 
 div.player div.name1 {
     top: 125px;
 }
+
 div.player div.name2 {
     top: 175px;
 }
+
 div.player div.name3 {
     top: 225px;
 }
+
 div.player div.name4 {
     top: 275px;
 }
+
 div.player div.name5 {
     display: none;
     top: 325px;
 }
+
 div.player div.name6 {
     display: none;
     top: 375px;
 }
+
 div.player div.name7 {
     display: none;
     top: 425px;
 }
+
 div.player div.name8 {
     display: none;
     top: 475px;
@@ -58,14 +93,37 @@ div.player div.t {
     font-size: 18px;
 }
 
-div.player div.t div.up1 {color: yellow;}
-div.player div.t div.up2 {color: yellow;}
-div.player div.t div.up3 {color: yellow;}
-div.player div.t div.up4 {color: yellow;}
-div.player div.t div.up5 {color: yellow;}
-div.player div.t div.up6 {color: yellow;}
-div.player div.t div.up7 {color: yellow;}
-div.player div.t div.up8 {color: yellow;}
+div.player div.t div.up1 {
+    color: yellow;
+}
+
+div.player div.t div.up2 {
+    color: yellow;
+}
+
+div.player div.t div.up3 {
+    color: yellow;
+}
+
+div.player div.t div.up4 {
+    color: yellow;
+}
+
+div.player div.t div.up5 {
+    color: yellow;
+}
+
+div.player div.t div.up6 {
+    color: yellow;
+}
+
+div.player div.t div.up7 {
+    color: yellow;
+}
+
+div.player div.t div.up8 {
+    color: yellow;
+}
 
 div.player div.oo {
     position: absolute;
@@ -77,33 +135,40 @@ div.player div.oo {
     letter-spacing: 0px;
     font-size: 40px;
     transform: translate(0px, 0px);
-    color: dodgerblue;
+    color: lightblue;
 }
 
 div.player div.oo1 {
     top: 125px;
 }
+
 div.player div.oo2 {
     top: 175px;
 }
+
 div.player div.oo3 {
     top: 225px;
 }
+
 div.player div.oo4 {
     top: 275px;
 }
+
 div.player div.oo5 {
     display: none;
     top: 325px;
 }
+
 div.player div.oo6 {
     display: none;
     top: 375px;
 }
+
 div.player div.oo5 {
     display: none;
     top: 425px;
 }
+
 div.player div.oo6 {
     display: none;
     top: 475px;
@@ -117,27 +182,34 @@ div.player div.sl {
 div.player div.sl1 {
     top: 125px;
 }
+
 div.player div.sl2 {
     top: 175px;
 }
+
 div.player div.sl3 {
     top: 225px;
 }
+
 div.player div.sl4 {
     top: 275px;
 }
+
 div.player div.sl5 {
     display: none;
     top: 325px;
 }
+
 div.player div.sl6 {
     display: none;
     top: 375px;
 }
+
 div.player div.sl7 {
     display: none;
     top: 425px;
 }
+
 div.player div.sl8 {
     display: none;
     top: 475px;

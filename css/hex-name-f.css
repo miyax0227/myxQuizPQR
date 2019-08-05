@@ -6,7 +6,7 @@ div.player div.n {
     letter-spacing: 0px;
     font-size: 24px;
     transform-origin: 0px 0px;
-    transform: translate(10px, -5px);
+    transform: scale(1.1,1.2) translate(6px,2px);
 }
 
 div.player div.n div.up1 {
@@ -130,7 +130,7 @@ div.player div.oo {
     letter-spacing: 0px;
     font-size: 40px;
     transform: translate(0px, 0px);
-    color: dodgerblue;
+    color: lightblue;
 }
 
 div.player div.oo1 {

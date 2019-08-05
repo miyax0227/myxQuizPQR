@@ -1,3 +1,8 @@
+div.player {
+    transform-origin: 0px 0px;
+    transform: scale(0.75, 0.75);
+}
+
 div.player div.n {
     position: absolute;
     font-family: "MigMix 1M";
@@ -5,7 +10,7 @@ div.player div.n {
     letter-spacing: 0px;
     font-size: 24px;
     transform-origin: 0px 0px;
-    transform: scale(0.8,1) translate(5px,-5px);
+    transform: scale(1,1.2) translate(5px,0px);
 }
 
 div.player div.n div.up1 {color: yellow;}
@@ -18,19 +23,19 @@ div.player div.n div.up7 {display: none;}
 div.player div.n div.up8 {display: none;}
 
 div.player div.name1 {
-    left: -70px;
+    left: -90px;
     top: 125px;
 }
 div.player div.name2 {
-    left: -70px;
+    left: -90px;
     top: 175px;
 }
 div.player div.name3 {
-    left: -70px;
+    left: -90px;
     top: 225px;
 }
 div.player div.name4 {
-    left: -70px;
+    left: -90px;
     top: 275px;
 }
 div.player div.name5 {
@@ -53,7 +58,7 @@ div.player div.name8 {
 div.player div.sl {
     position: absolute;
     transform-origin: 0px, 0px;
-    transform: scale(0.7,1) translate(0,-12px);
+    transform: scale(0.9,1.1) translate(0,-7px);
 }
 
 div.player div.sl div.up5 {display: none;}
@@ -62,19 +67,19 @@ div.player div.sl div.up7 {display: none;}
 div.player div.sl div.up8 {display: none;}
 
 div.player div.sl1 {
-    left: -70px;
+    left: -90px;
     top: 125px;
 }
 div.player div.sl2 {
-    left: -70px;
+    left: -90px;
     top: 175px;
 }
 div.player div.sl3 {
-    left: -70px;
+    left: -90px;
     top: 225px;
 }
 div.player div.sl4 {
-    left: -70px;
+    left: -90px;
     top: 275px;
 }
 div.player div.sl5 {
@@ -96,28 +101,28 @@ div.player div.sl8 {
 
 div.player div.action_sl1 {
     position: absolute;
-    left: -72px;
+    left: -62px;
     top: 125px;
     opacity: 0.8;
 }
 
 div.player div.action_sl2 {
     position: absolute;
-    left: -72px;
+    left: -62px;
     top: 175px;
     opacity: 0.8;
 }
 
 div.player div.action_sl3 {
     position: absolute;
-    left: -72px;
+    left: -62px;
     top: 225px;
     opacity: 0.8;
 }
 
 div.player div.action_sl4 {
     position: absolute;
-    left: -72px;
+    left: -62px;
     top: 275px;
     opacity: 0.8;
 }
