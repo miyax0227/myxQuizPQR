@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <title>myxQuizPQR</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+    </head>
+    <body>
+        <h1 id="myxquizpqr">myxQuizPQR</h1>
+<h2 id="%E6%A6%82%E8%A6%81">概要</h2>
+<p>2019年5月5日開催のクイズ大会「PQR」で行う団体戦用の得点表示プログラムです。</p>
+<h2 id="%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%83%BB%E8%B5%B7%E5%8B%95%E6%96%B9%E6%B3%95">インストール・起動方法</h2>
+<ol>
+<li>大会用ドロップボックス内の「\Dropbox\PQR・πϙρ\プログラム関係\myxQuizPQR-win32-x64.zip」を適当な場所に解凍してください。Dropbox内に解凍はしないでください。</li>
+<li>解凍先フォルダ内にある'myxQuiz.exe'を実行してください。</li>
+</ol>
+<h2 id="%E4%BD%BF%E3%81%84%E6%96%B9">使い方</h2>
+<h3 id="%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6">メニューウィンドウ</h3>
+<img src="http://drive.google.com/uc?export=view\&id=0B00MyT_-RKCUYlEzTzJORHZURE0" width="50%">
+<ol>
+<li><strong>招集(全体)</strong><br>
+<strong>最初に実施してください。</strong> 。ファイルの選択ダイアログが出るので、Dropboxの「\Dropbox\PQR・πϙρ\団体戦関係\団体戦エントリー.xlsx」を選択してください。ファイルの読込が完了するととウィンドウ下部にプレビューが表示されます。確認して問題なければ、OKボタンを押下してください。</li>
+<li><strong>招集(個別)</strong><br>
+<strong>各ラウンドの実行前に実施してください。</strong> エントリーリストまたは前ラウンドの結果から各ラウンドに参加する人を読み込みます。画面下部にプレビューが表示されるので、問題なければOKボタンを押下してください。</li>
+<li><strong>ラウンド名（ラウンド開始）</strong><br>
+<strong>各ラウンドを開始します。</strong> 各ラウンドの操作ウィンドウが開きます。以前に開いて中断したラウンドの場合は、中断した時点の履歴から再開できます。</li>
+<li>初期化(全体)<br>
+読み込み状態を初期化します。1. 招集(全体)を行う前の状態に戻ります。</li>
+<li>初期化(個別)<br>
+各ラウンドの状態を初期化します。3. ラウンド開始を行う前の状態に戻ります。</li>
+</ol>
+<h3 id="%E6%93%8D%E4%BD%9C%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6">操作ウィンドウ</h3>
+<h4 id="%E5%85%A8%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E5%85%B1%E9%80%9A">全ラウンド共通</h4>
+<img src="http://drive.google.com/uc?export=view\&id=0B00MyT_-RKCUWndHU3FJazNkRlk" width="50%">
+<ol>
+<li><strong>Basic</strong>
+<ol>
+<li><strong>view</strong><br>
+<strong>最初に実施してください。</strong> 操作用ウィンドウとは別に、表示用ウィンドウが開きます。表示用ウィンドウはスクリーンに映写するために必要です。</li>
+</ol>
+</li>
+<li>Rule<br>
+各ラウンドの形式固有の操作を行います。スルー、組分け変更など。形式によってボタンの種類が異なります。詳細は後方を参照してください。</li>
+<li>View
+<ol>
+<li>award<br>
+優勝決定時に表示されるカットイン表示のON/OFF切替を行います。決勝ラウンドで優勝決定後のみ使用します。</li>
+</ol>
+</li>
+<li>History
+<ol>
+<li>undo<br>
+直前の操作を取り消します。</li>
+<li>redo<br>
+直前のundoを取り消します。</li>
+</ol>
+</li>
+<li>Playoff
+<ol>
+<li>regular<br>
+プレーオフ状態から通常状態に戻します。</li>
+<li>playoff<br>
+プレーオフを開始します。プレーオフでは、各プレイヤーの勝抜・失格・待機をワンボタンで変更できます。</li>
+<li>upper<br>
+勝抜または失格していないプレイヤーのうち、成績最上位のプレイヤーを勝抜にします。複数のプレイヤーがいる場合は当該プレイヤー以外を待機状態にしてプレーオフを開始します。</li>
+<li>lower<br>
+勝抜または失格していないプレイヤーのうち、成績最下位のプレイヤーを失格にします。複数のプレイヤーがいる場合は当該プレイヤー以外を待機状態にしてプレーオフを開始します。</li>
+</ol>
+</li>
+</ol>
+<h4 id="%E4%BA%88%E9%81%B8">予選</h4>
+<ol>
+<li>プレイヤー固有ボタン
+<ol>
+<li>「○」(青色) - 正解</li>
+<li>「×」(赤色) 1～8 - 不正解（プレイヤー毎）</li>
+</ol>
+</li>
+<li>Rule
+<ol>
+<li>「thru」 - スルー</li>
+<li>「1」～「4」 - ペアの変更　<strong>ラウンド開始時に必ず「1」を押下して、第1ペアを選択すること。</strong></li>
+</ol>
+</li>
+</ol>
+<h4 id="%E6%BA%96%E6%B1%BA%E5%8B%9D%E3%83%BB%E6%B1%BA%E5%8B%9D">準決勝・決勝</h4>
+<ol>
+<li>プレイヤー固有ボタン
+<ol>
+<li>「○」(青色) - 正解</li>
+<li>「×」(赤色) - 不正解</li>
+</ol>
+</li>
+<li>Rule
+<ol>
+<li>「thru」  - スルー</li>
+</ol>
+</li>
+</ol>
+<h2 id="%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E6%96%B9%E6%B3%95">カスタマイズ方法</h2>
+<h3 id="%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%81%AE%E8%A1%A8%E7%A4%BA%E4%BD%8D%E7%BD%AE%E3%83%BB%E3%82%B5%E3%82%A4%E3%82%BA%E3%81%AE%E5%A4%89%E6%9B%B4">ウィンドウの表示位置・サイズの変更</h3>
+<p><code>/json/window.json</code>で変更可能です。プロジェクタに映写する位置にウィンドウを表示する場合は、モニタディスプレイの右端とプロジェクタディスプレイ左端が接しているとみなして座標入力してください(これら2つのディスプレイの位置関係は、各PCの設定に依ります)。</p>
+<h3 id="excel%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BF%E6%99%82%E3%81%AE%E5%AF%BE%E8%B1%A1%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88%E3%81%AE%E5%A4%89%E6%9B%B4">Excelファイル読み込み時の対象ワークシートの変更</h3>
+<p><code>/json/excel.json</code>で変更可能です。</p>
+<h3 id="%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9">ライセンス</h3>
+<p>Copyright (C) 2017-2019 R. MIYAMOTO<br>
+Licensed under MIT</p>
+<p>Includes MigMix Font<br>
+Copyright (C) 2002-2015 M+ FONTS PROJECT<br>
+Copyright(c) Information-technology Promotion Agency, Japan (IPA), 2003-2011.<br>
+<a href="http://mix-mplus-ipa.osdn.jp/migmix/IPA_Font_License_Agreement_v1.0.txt">http://mix-mplus-ipa.osdn.jp/migmix/IPA_Font_License_Agreement_v1.0.txt</a></p>
+<h2 id="%E4%BD%9C%E6%88%90%E8%80%85">作成者</h2>
+<p>R. MIYAMOTO (Miyax)<br>
+<a href="https://github.com/miyax0227">Github</a><br>
+<a href="https://twitter.com/mi_yax">Twitter</a></p>
+
+    </body>
+    </html>
