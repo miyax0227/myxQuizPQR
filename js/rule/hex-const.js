@@ -315,6 +315,7 @@ app.factory('rule', ['qCommon', function (qCommon) {
 				// 解答権設定
 				angular.forEach(players, function (p) {
 					for (var i = 1; i <= 8; i++) {
+						console.log(players, index, i, property.lotQCount[index].lot.indexOf(i));
 						if (property.lotQCount[index].lot.indexOf(i) >= 0 && (i <= 4 || !p["up" + i])) {
 							p["sl" + i] = 1;
 						} else {
