@@ -11,6 +11,6 @@
 	"author": "Ryoh MIYAMOTO",
 	"license": "ISC",
 	"dependencies": {
-		"xlsx": "0.10.3"
+		"xlsx": "0.17.0"
 	}
 }
